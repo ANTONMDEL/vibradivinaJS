@@ -1,3 +1,44 @@
+var nombre = prompt("ingrese su nombre para ingresar !")
+var cumple = prompt(" Ingrese el nombre del anfitrion")
+
+function boliche(nombre) {
+    console.log("Hola" + " " + nombre);
+
+}
+let edad = prompt("ingrese su edad !");
+
+function mayor(edad) {
+    if (edad >= 18) {
+        return (alert("Bienvenido" + " " + nombre))
+    } else if (edad == 17) {
+        return (alert("No puede pasar, volve cuando cumplas 18"))
+    } else {
+        return (alert("No puede pasar" + " " + nombre))
+    }
+}
+
+function feliz(cumple) {
+    switch (cumple) {
+        case "Alejandro":
+            console.log("Invitado de " + " " + "Alejandro")
+            break;
+        case "Marco":
+            console.log("Invitado de" + " " + "Marco")
+            break;
+        default:
+            break;
+    }
+}
+
+boliche(nombre);
+mayor(edad);
+feliz();
+
+
+
+
+
+/*  Entrega tres
 for (let i = 1; i <= 3; i++) {
     let socio = prompt("ingrese su nombre y apellido");
     if (socio == "Marco De Luca") {
@@ -7,6 +48,7 @@ for (let i = 1; i <= 3; i++) {
     alert("Hola" + " " + socio + " " + "su turno es el " + i);
 
 }
+
 
 
 let palabraClave = prompt(" ingrese su codigo clave !")
@@ -26,7 +68,7 @@ while (palabraClave != "1234") {
     palabraClave = prompt(" ingrese su codigo clave !");
 }
 
-
+*/
 
 /*  ENTREGA UNO Y DOS 
 
