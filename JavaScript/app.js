@@ -1,3 +1,23 @@
+const Reiki = new Cursos ("Reiki", 300 , 3 );
+console.log(Reiki.nombre);
+console.log(Reiki.costo);
+console.log(Reiki.duracion);
+Reiki.bienvenida();
+
+const Meditacion = new Cursos ("Meditacion", 500 , 6 );
+console.log(Meditacion.nombre);
+console.log(Meditacion.costo);
+console.log(Meditacion.duracion);
+Meditacion.bienvenida();
+
+
+const Registros = new Cursos ("Registros", 600 , 8 );
+console.log(Registros.nombre);
+console.log(Registros.costo);
+console.log(Registros.duracion);
+Registros.bienvenida();
+
+/* ENTREGA 4 
 var nombre = prompt("ingrese su nombre para ingresar !")
 var cumple = prompt(" Ingrese el nombre del anfitrion")
 
@@ -32,13 +52,13 @@ function feliz(cumple) {
 
 boliche(nombre);
 mayor(edad);
-feliz();
+feliz(); */
 
 
 
 
 
-/*  Entrega tres
+/*  ENTREGA 3
 for (let i = 1; i <= 3; i++) {
     let socio = prompt("ingrese su nombre y apellido");
     if (socio == "Marco De Luca") {
@@ -70,7 +90,7 @@ while (palabraClave != "1234") {
 
 */
 
-/*  ENTREGA UNO Y DOS 
+/*  ENTREGA 1 y 2 
 
 let sintomas = prompt("Tiene sintomas ? Ingrese sintomas");
 let sintomaUno = "fiebre";
