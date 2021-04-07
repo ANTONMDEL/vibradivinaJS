@@ -1,3 +1,25 @@
+const usuario = [123] ;
+let gasto = parseInt(prompt('Cuanto queres gastar del 1 al 5 ?'));
+
+for (let index = 0; index < gasto; index++) {
+    let nombre = prompt("ingrese su nombre completo");
+    let usuarioNumero =  parseInt((prompt("ingrese su numero de usuario")));
+    let descuento = prompt("Tiene codigo de descuento ?");
+ usuario.push(nombre);
+ usuario.push(usuarioNumero)
+usuario.push(descuento);
+}
+
+const descuentoUtilizado = usuario.slice(3,4);
+
+
+console.log(usuario.length);
+console.log(usuario.join(" "));
+console.log(descuentoUtilizado);
+
+
+
+/* ENTREGA 5 OBJETOS  
 const Reiki = new Cursos ("Reiki", 300 , 3 );
 console.log(Reiki.nombre);
 console.log(Reiki.costo);
@@ -16,6 +38,7 @@ console.log(Registros.nombre);
 console.log(Registros.costo);
 console.log(Registros.duracion);
 Registros.bienvenida();
+*/
 
 /* ENTREGA 4 
 var nombre = prompt("ingrese su nombre para ingresar !")
