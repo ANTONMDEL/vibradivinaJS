@@ -1,3 +1,52 @@
+const usuario1 = {
+    id: 1,
+    puntos: 750,
+    curso: "meditacion",
+    pago: true
+};
+const usuario2 = {
+    id: 2,
+    puntos: 50,
+    curso: "reiki",
+    pago: false
+}
+const usuario3 = {
+    id: 3,
+    puntos: 600,
+    curso: "registros",
+    pago: true
+}
+const array = [usuario1, usuario2, usuario3];
+
+const usuario4 = {
+    id: 4,
+    puntos: 300,
+    curso: "registros",
+    pago: false
+}
+
+array.push(usuario4);
+
+//El objetivo es mostrar el ID de cada usuario y que se imprima quien pago y quien no.
+for (const value of array) {
+    console.log(value.id);
+    console.log(value.pago);
+}
+
+//Funcion para ordenes el elemento "puntos" de mi array, de mayor a menor. 
+function puntajeUsuario(a, b) {
+    return b.puntos - a.puntos;
+}
+let puntajeU = array.sort(puntajeUsuario);
+console.log(puntajeU);
+
+
+
+
+
+
+
+/* ENTREGA 6a ARRAY 
 const usuario = [123] ;
 let gasto = parseInt(prompt('Cuanto queres gastar del 1 al 5 ?'));
 
@@ -15,7 +64,7 @@ const descuentoUtilizado = usuario.slice(3,4);
 
 console.log(usuario.length);
 console.log(usuario.join(" "));
-console.log(descuentoUtilizado);
+console.log(descuentoUtilizado); */
 
 
 
