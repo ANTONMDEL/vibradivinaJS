@@ -1,3 +1,15 @@
+/*Practica Local y Session storage
+localStorage.setItem("nombre", "Marco")
+localStorage.setItem("edad", 19);
+
+let name = localStorage.getItem(nombre);
+let aye = localStorage.getItem(edad);
+console.log(typeof eye);
+console.log(typeof name);
+*/
+
+
+
 const usuario1 = {
     id: 1,
     puntos: 750,
@@ -42,11 +54,24 @@ console.log(puntajeU);
 
 
 
+/* prueba de objetos para practicar 
+class Persona {
+    constructor( nombre, edad, calle){
+this.nombre= nombre
+this.edad = edad
+this.calle= calle
+    }
+    hablar(){
+      console.log("Hola soy" + " " + this.nombre);
+    }
+}
+const personaDos = new Persona ("carlos", 19 , "Carlos magno");
+const personaTres = new Persona ("luis", 109 , "Carlos magno");
+personaDos.hablar();
+personaTres.hablar();
+ */
 
-
-
-
-/* ENTREGA 6a ARRAY 
+// ENTREGA 6a ARRAY 
 const usuario = [123] ;
 let gasto = parseInt(prompt('Cuanto queres gastar del 1 al 5 ?'));
 
@@ -64,11 +89,10 @@ const descuentoUtilizado = usuario.slice(3,4);
 
 console.log(usuario.length);
 console.log(usuario.join(" "));
-console.log(descuentoUtilizado); */
+console.log(descuentoUtilizado); 
 
 
-
-/* ENTREGA 5 OBJETOS  
+// ENTREGA 5 OBJETOS  
 const Reiki = new Cursos ("Reiki", 300 , 3 );
 console.log(Reiki.nombre);
 console.log(Reiki.costo);
@@ -87,9 +111,9 @@ console.log(Registros.nombre);
 console.log(Registros.costo);
 console.log(Registros.duracion);
 Registros.bienvenida();
-*/
 
-/* ENTREGA 4 
+
+// ENTREGA 4 
 var nombre = prompt("ingrese su nombre para ingresar !")
 var cumple = prompt(" Ingrese el nombre del anfitrion")
 
@@ -124,7 +148,7 @@ function feliz(cumple) {
 
 boliche(nombre);
 mayor(edad);
-feliz(); */
+feliz(); 
 
 
 
