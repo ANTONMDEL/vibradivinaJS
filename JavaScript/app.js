@@ -35,12 +35,12 @@ function pagoss(pagoU) {
  
     for (let valor of pagoU){
        if (valor.pago == false) {
-           console.log(valor.id)
-           console.log("no pago");
+     
+           console.log(valor.id + " " +"no pago");
        }
        else{
-        console.log(valor.id)
-           console.log("pago")
+        
+           console.log(valor.id + " " +"pago")
        }
     }
 }
