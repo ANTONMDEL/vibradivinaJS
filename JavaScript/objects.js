@@ -10,4 +10,3 @@ function Cursos ( nombre , costo , duracion) {
 
 
 
-
